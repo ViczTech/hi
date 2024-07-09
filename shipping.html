@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soundr/cart/shipping</title>
+  <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Monument+Extended:wght@400&display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Satoshi:wght@400;500;700&display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" async></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-brand"><a style="text-decoration: none;" href="./index.html">SOUNDR</a></div>
+  </header><hr>
+
+  <div class="location">
+    <a href="./index.html"><p>Home <i class="fa-solid fa-arrow-right"></i></p></a>
+    <p><a href="./cart.html">Cart <i class="fa-solid fa-arrow-right"></i></a> &nbsp; &nbsp;Shipping </p>
+  </div>
+
+  <section class="cart">
+    <div class="shipping-details">
+      <h2>Shipping Details</h2>
+      <div class="address">
+        <p>Use saved address</p>
+        <button><p>123, Lagos Ikeja</p> <i class="fa-solid fa-caret-down"></i></button>
+      </div>
+      <h5>First line of address</h5>
+      <div class="form">
+      <input type="number" placeholder="123">
+      <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <h5>Street name</h5>
+      <div class="form">
+      <input type="text" placeholder="Medical Road">
+      <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <div class="code">
+        <div class="postcode">
+          <h5>Postcode</h5>
+          <input type="text" placeholder="ABC - 123">
+        </div>
+        <div class="ship">
+          <h5>Select Shipping</h5>
+          <button> <i class="fa-solid fa-caret-down"></i></button>
+        </div>
+      </div>
+      <div class="decision">
+        <p><a href="./index.html">Cancel order</a></p>
+        <a href="#payment"><button>Done</button></a>
+      </div>
+    </div>
+
+    <div class="product-detail">
+      <h2>Order Summary</h2>
+      <div class="detail">
+        <p>Subtotal</p>
+        <h3 class="subtotal">$760</h3>
+      </div>
+      <div class="detail">
+        <p>Discount (O%)</p>
+        <h3> - </h3>
+      </div>
+      <div class="detail">
+        <p>Delivery Fee</p>
+        <h3 class="delivery-fee">$15</h3>
+      </div>
+      <hr>
+      <div class="detail">
+        <h3 class="total">Total</h3>
+        <h2 class="total-price">$775</h2>
+      </div>
+      <div class="flex">
+        <div class="coupon">
+          <input type="search" placeholder=" Add promo code" />
+          <img src="./tag.png" alt="tag">
+        </div>
+        <button>Apply</button>
+    </div>
+    
+    <a href="./payment.html"><button id="payment" class="check-out">Proceed to payment &nbsp;<i class="fa-solid fa-arrow-right" style="color: white;"></i></button></a>
+  </section>
+
+  <footer>
+    <p>SOUNDR © 2020-2024. All Rights Reserved</p>
+    <img src="./Frame 53.png" alt="payment">
+  </footer>
+</body>
+</html>
